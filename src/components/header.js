@@ -7,7 +7,7 @@ const Header = () => {
   const { textStyle, viewStyle } = styles;
   return (
     <View style={viewStyle}>
-      <Text style={textStyle}>Header</Text>
+      <Text style={textStyle}>Albums</Text>
     </View>
   );
 };
@@ -21,7 +21,8 @@ const styles = {
     paddingTop: 15
   },
   textStyle: {
-    fontSize: 20
+    fontSize: 20,
+    color: 'red'
   }
 };
 // Make the component available to other parts of the app
