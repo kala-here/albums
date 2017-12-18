@@ -6,7 +6,10 @@ class AlbumList extends Component {
   // componentWillMount runs right before content is loaded to the string
   // ^this makes componentWillMount the perfect place to call for needed data
   componentWillMount() {
-    console.log('componentWillMount in AlbumsList');
+    // ASYNC HTTP Request to get albums from the API.
+    // eslint-disable-next-line
+    fetch('https://rallycoding.herokuapp.com/api/music_albums')
+      .then(response => console.log(response));
   }
   render() {
     return (
