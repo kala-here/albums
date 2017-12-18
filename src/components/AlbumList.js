@@ -10,11 +10,13 @@ class AlbumList extends Component {
     // eslint-disable-next-line
     fetch('https://rallycoding.herokuapp.com/api/music_albums')
       .then(response => console.log(response));
+    // .then((response) => response.json())
+    // .then((responseData) => this.setState({ albums: responseData }));
   }
   render() {
     return (
       <View>
-      <Text>Album List!!!</Text>
+        <Text>Album List!!!</Text>
       </View>
     );
   }
