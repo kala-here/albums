@@ -22,7 +22,7 @@ const styles = {
   },
   textStyle: {
     fontSize: 20,
-    color: 'red'
+    color: '#ff0000'
   }
 };
 // Make the component available to other parts of the app
