@@ -1,8 +1,12 @@
 import React from 'react';
-import {  } from 'react-native';
+import { View, Text } from 'react-native';
 
-const AlbumList = () => {
-
+const AlbumList = () => { 
+  return (
+    <View>
+      <Text>Album List!!!</Text>
+    </View>
+  );
 };
 
 export default AlbumList;
